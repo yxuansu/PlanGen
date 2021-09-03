@@ -1,0 +1,13 @@
+CUDA_VISIBLE_DEVICES=0 python3 pretrain.py\
+    --train_table_text_path ../data/tiny_data/tiny_table.txt\
+    --train_content_text_path ../data/tiny_data/tiny_content_plan.txt\
+    --train_reference_sentence_path ../data/tiny_data/tiny_reference.txt\
+    --dev_table_text_path ../data/tiny_data/tiny_table.txt\
+    --dev_content_text_path ../data/tiny_data/tiny_content_plan.txt\
+    --dev_reference_sentence_path ../data/tiny_data/tiny_reference.txt\
+    --dev_reference_path ../data/tiny_data/tiny_raw_totto_dev.jsonl\
+    --special_token_path ../data/totto_col_header_vocab.txt\
+    --ckpt_path ./test_ckpt/pretrain/\
+    --total_steps 5\
+    --print_every 1\
+    --eval_every 4

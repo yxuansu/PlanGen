@@ -1,0 +1,50 @@
+__Governor__ __#__ __page_title__ __Took_Office__
+__page_title__ __Role__ __Year__ __section_title__ __Title__
+__page_title__ __None__
+__Name__ __Death__ __Name__
+__Speaker__ __page_title__
+__page_title__ __Host_City__ __Host_Nation__ __Start_Date__ __End_Date__ __Year__ __Year__ __Host_City__ __Host_Nation__
+__Year__ __page_title__ __Role__ __Notes__ __Title__
+__Year__ __page_title__ __Title__ __Role__
+__Name__ __section_title__ __page_title__
+__page_title__ __PPG__ __RPG__ __APG__ __GP__
+__None__ __page_title__
+__Date__ __page_title__ __Result__ __Opponent__ __Bowl__
+__Year__ __page_title__ __Award__ __Category__ __Title__
+__page_title__ __Revenue__ __Date__ __Attendance__
+__Year__ __page_title__ __Team__ __Rank__
+__Nuclide__ __Nuclide__ __Nuclide__ __section_title__ __page_title__
+__Year__ __page_title__ __Category__ __Award__
+__Party__ __Seats__ __Seats__ __Party__ __Seats__
+__Player__ __section_title__ __W__ __L__ __Player__ __ERA__
+__Venue__ __Competition__ __page_title__ __Position__ __Event__ __Notes__
+__Season__ __page_title__ __League__ __Club__
+__Name__ __None__ __Founded__ __page_title__ __Country__
+__Player__ __Score__
+__None__ __None__ __page_title__ __None__
+__Year__ __section_title__ __page_title__
+__None__ __page_title__
+__Historical_population__ __Historical_population__ __page_title__
+__section_title__ __page_title__ __None__ __None__ __None__ __None__
+__page_title__ __Language__ __Language__ __Language__ __section_title__ __Film__ __Year__ __Film__ __Year__ __Film__ __Film__ __Year__
+__Event__ __Level__ __section_title__ __page_title__ __Total__ __FS__
+__page_title__ __section_title__ __None__ __None__ __None__ __None__
+__Dates__ __page_title__ __None__
+__page_title__ __Year__ __Year__ __Competition__ __Position__
+__Team__ __Overall__ __Season__
+__page_title__ __Notes__ __Competition__
+__Year__ __page_title__ __Role__ __Title__
+__section_title__ __page_title__ __Name__ __Term_start__ __Term_end__
+__page_title__ __Role__ __Title__ __Year__
+__Year__ __page_title__ __Director__ __Language__ __Film__
+__page_title__ __Year__ __Competition__ __Venue__
+__page_title__ __Year__ __Category__ __Nominated_Work__ __Year__ __Category__
+__Event__ __section_title__ __page_title__
+__page_title__ __Historical_population__ __Historical_population__ __Historical_population__ __Historical_population__ __Historical_population__
+__page_title__ __None__ __Location__ __Broadcaster__
+__Year__ __page_title__ __Role__ __English_title__
+__page_title__ __Year__ __Competition__ __Venue__ __Notes__
+__Historical_population__ __Historical_population__ __page_title__
+__Name__ __Date_of_death__ __page_title__ __Reign__
+__Title__ __Genre__ __page_title__
+__Club__ __page_title__ __None__ __None__
