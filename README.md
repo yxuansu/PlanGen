@@ -32,7 +32,7 @@ Please refer to README.md in ./content_planner
 # 4. Sequence Generator:
 Please refer to README.md in ./generator
 
-## 5. Citation
+# 5. Citation
 If you find our paper and resources useful, please kindly cite our paper:
 ```yaml
 @inproceedings{su2021plangen,
