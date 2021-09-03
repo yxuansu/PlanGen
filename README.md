@@ -10,5 +10,16 @@ chmod +x ./config_setup.sh
 ```
 
 # 2. ToTTo Data Preprocessing:
+## (1) To preprocess the ToTTo data from scratch:
+```yaml
+```
+```yaml
+cd data
+chmod +x ./prepare_data.sh
+./prepare_data.sh
+```
+This process could take up to 1 hour
+
+## (2) 
 
 For more details, please refer to the Google Research [ToTTo Dataset](https://github.com/google-research-datasets/ToTTo)
