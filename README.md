@@ -1,6 +1,14 @@
 # Plan-then-Generate: Controlled Data-to-Text Generation via Planning
 Authors: Yixuan Su, David Vandyke, Sihui Wang, Yimai Fang, and Nigel Collier
 
-This repo contains related resource for our paper [Plan-then-Generate: Controlled Data-to-Text Generation via Planning](https://arxiv.org/abs/2108.13740)
+Code for EMNLP2021 paper [Plan-then-Generate: Controlled Data-to-Text Generation via Planning](https://arxiv.org/abs/2108.13740)
 
-The code will coming soon...
+# 1. Environment Setup:
+```yaml
+chmod +x ./config_setup.sh
+./config_setup.sh
+```
+
+# 2. ToTTo Data Preprocessing:
+
+For more details, please refer to the Google Research [ToTTo Dataset](https://github.com/google-research-datasets/ToTTo)
