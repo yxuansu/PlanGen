@@ -5,7 +5,7 @@ Code for EMNLP 2021 paper [Plan-then-Generate: Controlled Data-to-Text Generatio
 
 # 1. Environment Setup:
 ## (1) Hardware Requirement:
-The code in this repo is thoroughly tested on machine with a single Nvida V100 GPU (16GB)
+The code in this repo is thoroughly tested on our machine with a single Nvida V100 GPU (16GB)
 ## (2) Installation:
 ```yaml
 chmod +x ./config_setup.sh
