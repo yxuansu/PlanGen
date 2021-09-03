@@ -22,8 +22,9 @@ chmod +x ./perform_inference.sh
 ```
 # 5. Controlled Generation:
 We provide a jupyter notebook which illustrates how to perform controlled generation (by varying the content plan) with our model. 
-First, download the pre-trained checkpoints as described in the above section. Next, install jupyter notebook in your local machine by
+## (1) First, download the pre-trained checkpoints as described in the above section. 
+## (2) Then, install jupyter notebook in your local machine by
 ```yaml
 pip install jupyter notebook
 ```
-Next, open the provided notebook (Controlled Generation.ipynb), and have fun!
+## (3) Last, open the provided notebook (Controlled Generation.ipynb), and have fun!
