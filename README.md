@@ -14,9 +14,7 @@ chmod +x ./config_setup.sh
 # 2. ToTTo Data Preprocessing:
 ## Option (1): Preprocess the ToTTo data from scratch by yourself:
 ```yaml
-```
-```yaml
-cd data
+cd ./data
 chmod +x ./prepare_data.sh
 ./prepare_data.sh
 ```
@@ -29,10 +27,10 @@ unzip data.zip and replace with the empty ./data folder
 For more details about ToTTo dataset, please refer to the original Google Research [repo](https://github.com/google-research-datasets/ToTTo)
 
 # 3. Content Planner:
-Please refer to README.md in ./content_planner
+Please refer to README.md in ./content_planner folder
 
 # 4. Sequence Generator:
-Please refer to README.md in ./generator
+Please refer to README.md in ./generator folder
 
 # 5. Citation
 If you find our paper and resources useful, please kindly cite our paper:
