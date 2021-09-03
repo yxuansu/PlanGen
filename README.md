@@ -4,11 +4,13 @@ Authors: Yixuan Su, David Vandyke, Sihui Wang, Yimai Fang, and Nigel Collier
 Code for EMNLP 2021 paper [Plan-then-Generate: Controlled Data-to-Text Generation via Planning](https://arxiv.org/abs/2108.13740)
 
 # 1. Environment Setup:
+## (1) Hardware Requirement:
+The code in this repo is thoroughly tested on machine with a single Nvida V100 GPU (16GB)
+## (2) Installation:
 ```yaml
 chmod +x ./config_setup.sh
 ./config_setup.sh
 ```
-
 # 2. ToTTo Data Preprocessing:
 ## Option (1): Preprocess the ToTTo data from scratch by yourself:
 ```yaml
