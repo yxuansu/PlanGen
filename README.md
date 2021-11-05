@@ -35,12 +35,22 @@ Please refer to README.md in ./generator folder
 # 5. Citation
 If you find our paper and resources useful, please kindly cite our paper:
 
-    @inproceedings{su2021plangen,
-        title={Plan-then-Generate: Controlled Data-to-Text Generation via Planning}, 
-         author={Yixuan Su and David Vandyke and Sihui Wang and Yimai Fang and Nigel Collier},
-        booktitle = "Findings of the Association for Computational Linguistics: EMNLP 2021",
-        month = nov,
-        year = "2021",
-        publisher = "Association for Computational Linguistics",
-    }
-
+```bibtex
+@article{DBLP:journals/corr/abs-2108-13740,
+  author    = {Yixuan Su and
+               David Vandyke and
+               Sihui Wang and
+               Yimai Fang and
+               Nigel Collier},
+  title     = {Plan-then-Generate: Controlled Data-to-Text Generation via Planning},
+  journal   = {CoRR},
+  volume    = {abs/2108.13740},
+  year      = {2021},
+  url       = {https://arxiv.org/abs/2108.13740},
+  eprinttype = {arXiv},
+  eprint    = {2108.13740},
+  timestamp = {Fri, 03 Sep 2021 10:51:17 +0200},
+  biburl    = {https://dblp.org/rec/journals/corr/abs-2108-13740.bib},
+  bibsource = {dblp computer science bibliography, https://dblp.org}
+}
+```
