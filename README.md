@@ -36,21 +36,20 @@ Please refer to README.md in ./generator folder
 If you find our paper and resources useful, please kindly cite our paper:
 
 ```bibtex
-@article{DBLP:journals/corr/abs-2108-13740,
-  author    = {Yixuan Su and
-               David Vandyke and
-               Sihui Wang and
-               Yimai Fang and
-               Nigel Collier},
-  title     = {Plan-then-Generate: Controlled Data-to-Text Generation via Planning},
-  journal   = {CoRR},
-  volume    = {abs/2108.13740},
-  year      = {2021},
-  url       = {https://arxiv.org/abs/2108.13740},
-  eprinttype = {arXiv},
-  eprint    = {2108.13740},
-  timestamp = {Fri, 03 Sep 2021 10:51:17 +0200},
-  biburl    = {https://dblp.org/rec/journals/corr/abs-2108-13740.bib},
-  bibsource = {dblp computer science bibliography, https://dblp.org}
+@inproceedings{su-etal-2021-plan-generate,
+    title = "Plan-then-Generate: Controlled Data-to-Text Generation via Planning",
+    author = "Su, Yixuan  and
+      Vandyke, David  and
+      Wang, Sihui  and
+      Fang, Yimai  and
+      Collier, Nigel",
+    booktitle = "Findings of the Association for Computational Linguistics: EMNLP 2021",
+    month = nov,
+    year = "2021",
+    address = "Punta Cana, Dominican Republic",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/2021.findings-emnlp.76",
+    pages = "895--909",
+    abstract = "Recent developments in neural networks have led to the advance in data-to-text generation. However, the lack of ability of neural models to control the structure of generated output can be limiting in certain real-world applications. In this study, we propose a novel Plan-then-Generate (PlanGen) framework to improve the controllability of neural data-to-text models. Extensive experiments and analyses are conducted on two benchmark datasets, ToTTo and WebNLG. The results show that our model is able to control both the intra-sentence and inter-sentence structure of the generated output. Furthermore, empirical comparisons against previous state-of-the-art methods show that our model improves the generation quality as well as the output diversity as judged by human and automatic evaluations.",
 }
 ```
