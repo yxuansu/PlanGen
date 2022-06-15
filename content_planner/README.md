@@ -124,6 +124,6 @@ print ('The pedicted content plan is: {}'.format(predicted_content_plan))
 '''
 ```
 
-The 
+After preparing the input ids of the table and the candidate set, we can then use the model to predict the content plan with the function `selective_decoding()`.
 
 
