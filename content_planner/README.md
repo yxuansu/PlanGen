@@ -16,4 +16,4 @@ In this repo, we provide a simpler and more robust implementation of our content
 <span id='prepare_data'/>
 
 ### 1.1. Data Preparation:
-To prepare the 
+To prepare the ToTTo dataset, please follow the instruction as described [[here]](https://github.com/yxuansu/PlanGen#2-totto-data-preprocessing).
