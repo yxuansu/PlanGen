@@ -109,5 +109,5 @@ selected_id_list = [model.targettokenizer.extract_selective_ids(table.strip('\n'
 
 # make prediction
 predicted_content_plan = model.selective_decoding(src_tensor, selected_id_list)
-print ('Predicted Content Plan is {}'.format(predicted_content_plan))
+print ('Predicted Content Plan is: {}'.format(predicted_content_plan))
 ```
