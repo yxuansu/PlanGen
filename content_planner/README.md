@@ -110,4 +110,7 @@ selected_id_list = [model.targettokenizer.extract_selective_ids(table.strip('\n'
 # make prediction
 predicted_content_plan = model.selective_decoding(src_tensor, selected_id_list)
 print ('Predicted Content Plan is: {}'.format(predicted_content_plan))
+'''
+   Predicted Content Plan is: ['__Governor__ __#__ __page_title__ __Took_Office__']
+'''
 ```
