@@ -1,1 +1,2 @@
-## This repo contains the code for the implementation of our content planner. 
+## Content Planner
+In this repo, we provide a simpler and more robust implementation of our content planner. 
