@@ -108,16 +108,18 @@ src_tensor = torch.LongTensor(table_id_list).view(1,-1)
 selected_id_list = [model.targettokenizer.extract_selective_ids(table.strip('\n').strip())]
 candidate_set = model.targettokenizer.convert_ids_to_text(selected_id_list[0])
 print ('The candidate set is: {}\n'.format(candidate_set))
+'''
+   The candidate set is: __EOS__ __Governor__ __Took_Office__ __page_title__ __section_title__ __#__
+'''
 ```
-The function `extract_selective_ids()` extracts the candidate set of the content plan from the given table. The given table is represented as a list of (key : value __EOS__) set.
+
+The function `extract_selective_ids()` extracts the candidate set of the content plan from the given table. The given table is represented as a list of `key : value set`.
 
 ```python
 # make prediction
 predicted_content_plan = model.selective_decoding(src_tensor, selected_id_list)
 print ('The pedicted content plan is: {}'.format(predicted_content_plan))
 '''
-   The candidate set is: __EOS__ __Governor__ __Took_Office__ __page_title__ __section_title__ __#__
-
    The pedicted content plan is: ['__Governor__ __#__ __page_title__ __Took_Office__']
 '''
 ```
