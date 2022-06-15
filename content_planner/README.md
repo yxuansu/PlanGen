@@ -7,7 +7,8 @@ In this repo, we provide a simpler and more robust implementation of our content
 * <a href='#training'>1. Training of Content Planner</a>
     * <a href='#prepare_data'>1.1. Data Preparation</a>
     * <a href='#train_content_planner'>1.2. Training</a>
-
+* <a href='#inference'>2. Inference with Content Planner</a>
+    * <a href='#load_model'>2.1. Load Pre-trained Model</a>
 ****
 
 <span id='training'/>
@@ -50,3 +51,11 @@ The arguments are as follows:
 * `--learning_rate`: The learning rate.
 * `--mle_loss_weight`: The weight of the MLE loss in the training objective.
 * `--save_path_prefix`: Where to save the checkpoints.
+
+
+****
+
+<span id='inference'/>
+
+### 2. Inference with Content Planner:
+In the following, we show how to perform inference with the content planner.
