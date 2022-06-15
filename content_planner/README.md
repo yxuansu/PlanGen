@@ -1,1 +1,1 @@
-The code will come soon.
+## This repo contains the code for the implementation of our content planner. 
