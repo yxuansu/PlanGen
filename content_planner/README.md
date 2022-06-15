@@ -9,6 +9,7 @@ In this repo, we provide a simpler and more robust implementation of our content
     * <a href='#train_content_planner'>1.2. Training</a>
 * <a href='#inference'>2. Inference with Content Planner</a>
     * <a href='#load_model'>2.1. Load Model</a>
+    * <a href='#perform_inference'>2.2. Perform Inference</a>
 ****
 
 <span id='training'/>
@@ -88,3 +89,25 @@ chmod +x ./download_ckpt.sh
 ./download_ckpt.sh
 ```
 
+<span id='perform_inference'/>
+
+#### 2.2. Perform Inference:
+After loading the model, we can then perform inference as:
+```python
+import torch
+# example table
+table = r'__page_title__ : List of Governors of South Carolina __EOS__ __#__ : 76 __EOS__ __Governor__ : Daniel Henry Chamberlain __EOS__ __Took_Office__ : December 1 , 1874 __EOS__ __section_title__ : Governors under the Constitution of 1868 __EOS__'
+
+# prepare table id list
+table_id_list = model.tokenizer.encode(table, max_length=320, truncation=True, add_special_tokens=False)[:320]
+cls_token_id, sep_token_id = model.tokenizer.cls_token_id, model.tokenizer.sep_token_id
+table_id_list = [cls_token_id] + table_id_list + [sep_token_id]
+src_tensor = torch.LongTensor(table_id_list).view(1,-1)
+
+# prepare selected content plan id list
+selected_id_list = [model.targettokenizer.extract_selective_ids(table.strip('\n').strip())]
+
+# make prediction
+predicted_content_plan = model.selective_decoding(src_tensor, selected_id_list)
+print ('Predicted Content Plan is {}'.format(predicted_content_plan))
+```
