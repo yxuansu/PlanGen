@@ -112,7 +112,6 @@ print ('The candidate set is: {}\n'.format(candidate_set))
 # make prediction
 predicted_content_plan = model.selective_decoding(src_tensor, selected_id_list)
 print ('The pedicted content plan is: {}'.format(predicted_content_plan))
-
 '''
    The candidate set is: __EOS__ __Governor__ __Took_Office__ __page_title__ __section_title__ __#__
 
