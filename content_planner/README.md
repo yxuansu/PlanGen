@@ -1,4 +1,4 @@
-## Content Planner
+# Content Planner
 In this repo, we provide a simpler and more robust implementation of our content planner. In the following, we show how to conduct training and inference with our content planner on the ToTTo dataset.
 
 ****
