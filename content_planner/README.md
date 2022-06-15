@@ -8,7 +8,7 @@ In this repo, we provide a simpler and more robust implementation of our content
     * <a href='#prepare_data'>1.1. Data Preparation</a>
     * <a href='#train_content_planner'>1.2. Training</a>
 * <a href='#inference'>2. Inference with Content Planner</a>
-    * <a href='#load_model'>2.1. Load Pre-trained Model</a>
+    * <a href='#load_model'>2.1. Load Model</a>
 ****
 
 <span id='training'/>
@@ -62,7 +62,7 @@ In the following, we show how to perform inference with the content planner.
 
 <span id='load_model'/>
 
-#### 2.1. Load Pre-trained Model:
+#### 2.1. Load Model:
 To the load the pre-trained model, please run the following commands:
 ```python
 from utlis import load_special_tokens
@@ -79,3 +79,6 @@ ckpt_path = r'./ckpt/' # the path specified in the --save_path_prefix argument o
 model.load_pretrained_model(ckpt_path)
 model.eval()
 ```
+
+**[Note]** The ckpt_path is the path specified in the `--save_path_prefix` argument of the training script
+
