@@ -80,5 +80,9 @@ model.load_pretrained_model(ckpt_path)
 model.eval()
 ```
 
-**[Note]** The ckpt_path is the path specified in the `--save_path_prefix` argument of the training script. If you would like to have a quick test on the inference part, we also provide our pre-trained parameters for you to use. To download the 
+**[Note]** The ckpt_path is the path specified in the `--save_path_prefix` argument of the training script. If you would like to have a quick test on the inference part, we also provide our pre-trained parameters for you to use. To download the pre-trained parameters, please run the following commands:
+```yaml
+chmod +x ./download_ckpt.sh
+./download_ckpt.sh
+```
 
