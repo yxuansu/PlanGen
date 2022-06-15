@@ -59,3 +59,23 @@ The arguments are as follows:
 
 ### 2. Inference with Content Planner:
 In the following, we show how to perform inference with the content planner.
+
+<span id='load_model'/>
+
+#### 2.1. Load Pre-trained Model:
+To the load the pre-trained model, please run the following commands:
+```python
+from utlis import load_special_tokens
+from contentplanner import ContentPlanner
+# load the list of table slot keys
+path = r'../data/totto_col_header_vocab.txt'
+min_slot_cnt = 10
+special_token_list = load_special_tokens(path, min_slot_cnt)
+# create a model instance
+model_name, special_token_list = 'bert-base-cased', special_token_list
+model = ContentPlanner(model_name, special_token_list=special_token_list)
+# load the pre-trained parameters
+ckpt_path = r'./ckpt/' # the path specified in the --save_path_prefix argument of the training script
+model.load_pretrained_model(ckpt_path)
+model.eval()
+```
