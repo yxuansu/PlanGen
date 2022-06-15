@@ -113,7 +113,7 @@ print ('The candidate set is: {}\n'.format(candidate_set))
 '''
 ```
 
-The function `extract_selective_ids()` extracts the candidate set of the content plan from the given table. The given table is represented as a list of `key : value` set. The final predicted content plan **only** contains the slot keys that exist in the candidate set.
+The function `extract_selective_ids()` extracts the candidate set of the content plan from the given table. The given table is represented as a list of `key : value` pairs. The final predicted content plan **only** contains the slot keys that exist in the candidate set.
 
 ```python
 # make prediction
