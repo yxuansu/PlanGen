@@ -30,7 +30,10 @@ chmod +x ./train.sh
 ```
 The arguments are as follows:
 * `--model_name`: The name of huggingface pre-trained model.
-* `--crf_low_rank`: The low rank configuration of the CRF layer. For more details of the CRF layer, please refer to our another paper (https://aclanthology.org/2021.eacl-main.18.pdf).
+* `--crf_low_rank`: The low rank configuration of the CRF layer. For more details, please refer to the Section 3.1 of our another paper (https://aclanthology.org/2021.eacl-main.18.pdf).
+* `--crf_beam_size`: The beam width of the CRF layer. For more details, please refer to the Section 3.1 of our another paper (https://aclanthology.org/2021.eacl-main.18.pdf).
+
+
 * `--train_path`: The file path of training set.
 * `--dev_path`: The file path of validation set.
 * `--test_path`: The file path of test set.
