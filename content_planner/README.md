@@ -115,6 +115,6 @@ print ('The pedicted content plan is: {}'.format(predicted_content_plan))
 '''
    The candidate set is: __EOS__ __Governor__ __Took_Office__ __page_title__ __section_title__ __#__
 
-   Predicted content plan is: ['__Governor__ __#__ __page_title__ __Took_Office__']
+   The pedicted content plan is: ['__Governor__ __#__ __page_title__ __Took_Office__']
 '''
 ```
